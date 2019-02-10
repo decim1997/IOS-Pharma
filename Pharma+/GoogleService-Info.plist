@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+      <key>CLIENT_ID</key>
+      <string>156226920627-u46dru3f7r8miipjclk4eoecru3cvu32.apps.googleusercontent.com</string>
+      <key>REVERSED_CLIENT_ID</key>
+      <string>com.googleusercontent.apps.156226920627-u46dru3f7r8miipjclk4eoecru3cvu32</string>
+      <key>PLIST_VERSION</key>
+      <string>1</string>
+      <key>BUNDLE_ID</key>
+      <string>com.thony2.Pharma-</string>
+    </dict>
+    </plist>

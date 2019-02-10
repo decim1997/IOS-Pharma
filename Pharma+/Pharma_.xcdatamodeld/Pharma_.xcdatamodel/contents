@@ -1,4 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Medicament" representedClassName="Medicament" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptiom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_categorie" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_forme" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_medicament" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_type" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image_medicament" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nom_categorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nom_forme" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nom_medicament" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ordonnance" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="prix_medicament" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="quantite" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Panier" representedClassName="Panier" syncable="YES" codeGenerationType="class">
+        <attribute name="id_pharmacie" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_produit" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image_produit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nom_pharmacie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nom_produit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prix_produit" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="quantite_produit" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Personne" representedClassName="Personne" syncable="YES" codeGenerationType="class">
+        <attribute name="activate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="numeros" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pseudo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Pharmacy" representedClassName="Pharmacy" syncable="YES" codeGenerationType="class">
+        <attribute name="adresse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desciprion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="guarde" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_pharmacie" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_pharmacien" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nom_pharmacie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numeros_pharmacie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pharma_picture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ville" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SessionPharmacy" representedClassName="SessionPharmacy" syncable="YES" codeGenerationType="class">
+        <attribute name="adresse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="description_pharmacie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="garde" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_pharmacie" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_pharmacien" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="numero_pharmacie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phamciy_picture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ville" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Medicament" positionX="-45" positionY="72" width="128" height="240"/>
+        <element name="Panier" positionX="-54" positionY="135" width="128" height="150"/>
+        <element name="Personne" positionX="-45" positionY="135" width="128" height="165"/>
+        <element name="Pharmacy" positionX="-63" positionY="-18" width="128" height="195"/>
+        <element name="SessionPharmacy" positionX="-27" positionY="153" width="128" height="225"/>
+    </elements>
 </model>

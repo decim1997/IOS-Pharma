@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02EA2C2232CDE8000757A43D /* Pods_Pharma_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732BB91C3E73A0F14567AC6E /* Pods_Pharma_Tests.framework */; };
+		63611F2E25B3B60E72715962 /* Pods_Pharma_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DEB42A47329449137A9C43 /* Pods_Pharma_UITests.framework */; };
+		B27980EE37342E3BB1A9769D /* Pods_Pharma_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A354A52F95EB873062AC725 /* Pods_Pharma_.framework */; };
+		CC04AD1921BE635400F01029 /* ListPharmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04AD1821BE635400F01029 /* ListPharmaViewController.swift */; };
+		CC05CE2F21AB7983009658A2 /* MedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05CE2E21AB7983009658A2 /* MedViewController.swift */; };
+		CC05D9E121C9A9D20015AD80 /* PharmacienInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05D9E021C9A9D20015AD80 /* PharmacienInterfaceController.swift */; };
+		CC2E5FE321C586E800155DAE /* PharmaSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E5FE221C586E800155DAE /* PharmaSession.swift */; };
+		CC39794621F118C700134A69 /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39794521F118C700134A69 /* CheckInternet.swift */; };
+		CC3F02EC21C80F7B00A586AE /* CartControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F02EB21C80F7B00A586AE /* CartControllerTableViewController.swift */; };
+		CC3F02EF21C86E8300A586AE /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F02EE21C86E8300A586AE /* Section.swift */; };
+		CC3F02F121C87A2400A586AE /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F02F021C87A2400A586AE /* ExpandableHeaderView.swift */; };
+		CC5C35B121CEAC0D0044C756 /* ClientOwnInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C35B021CEAC0D0044C756 /* ClientOwnInterface.swift */; };
+		CC5C35B321CEAC750044C756 /* ClientSlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C35B221CEAC750044C756 /* ClientSlideMenu.swift */; };
+		CC5C35B521CEC4780044C756 /* CommandeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C35B421CEC4780044C756 /* CommandeViewController.swift */; };
+		CC5C35B721CECF160044C756 /* Commande.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C35B621CECF160044C756 /* Commande.swift */; };
+		CC635BBD21C9B457001FA969 /* CustomerSlideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC635BBC21C9B457001FA969 /* CustomerSlideController.swift */; };
 		CC6CA993219B897D00D5B53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CA992219B897D00D5B53D /* AppDelegate.swift */; };
 		CC6CA995219B897D00D5B53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CA994219B897D00D5B53D /* ViewController.swift */; };
 		CC6CA998219B897D00D5B53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6CA996219B897D00D5B53D /* Main.storyboard */; };
@@ -15,6 +31,33 @@
 		CC6CA9A0219B897F00D5B53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6CA99E219B897F00D5B53D /* LaunchScreen.storyboard */; };
 		CC6CA9AB219B898000D5B53D /* Pharma_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CA9AA219B898000D5B53D /* Pharma_Tests.swift */; };
 		CC6CA9B6219B898000D5B53D /* Pharma_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CA9B5219B898000D5B53D /* Pharma_UITests.swift */; };
+		CC6CA9C4219B900C00D5B53D /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CA9C3219B900C00D5B53D /* InscriptionViewController.swift */; };
+		CC6CA9C6219B9CFC00D5B53D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CA9C5219B9CFC00D5B53D /* MainViewController.swift */; };
+		CC6CA9C8219BBE3D00D5B53D /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CA9C7219BBE3D00D5B53D /* SideBarView.swift */; };
+		CC6FC6B221A64A86000C7CC8 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC6FC6B121A64A86000C7CC8 /* credentials.plist */; };
+		CC8D92BF21CAF3170014CBF5 /* AddMedicamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8D92BE21CAF3170014CBF5 /* AddMedicamentViewController.swift */; };
+		CC8E9BDC21BB319600E6CAF6 /* PanierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E9BDB21BB319600E6CAF6 /* PanierViewController.swift */; };
+		CC95F29D21C45EDD00BE9D8A /* ClientMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95F29C21C45EDD00BE9D8A /* ClientMenuController.swift */; };
+		CC95F29F21C479AE00BE9D8A /* CustomerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95F29E21C479AE00BE9D8A /* CustomerMapViewController.swift */; };
+		CCA3419421B4A95500B9E06F /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3419321B4A95500B9E06F /* Pharmacy.swift */; };
+		CCA3419821B4D99B00B9E06F /* PharmacienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3419721B4D99B00B9E06F /* PharmacienViewController.swift */; };
+		CCA3419A21B5309500B9E06F /* AllDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3419921B5309500B9E06F /* AllDrugViewController.swift */; };
+		CCA3419C21B5353800B9E06F /* NetworkTritement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3419B21B5353800B9E06F /* NetworkTritement.swift */; };
+		CCA3419E21B53C9C00B9E06F /* MedicamentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3419D21B53C9C00B9E06F /* MedicamentObject.swift */; };
+		CCA854BF21BD3CB700F5AB55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCA854BE21BD3CB700F5AB55 /* GoogleService-Info.plist */; };
+		CCB0EB5521AB527100BFC8E0 /* DrugTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB0EB5421AB527100BFC8E0 /* DrugTabController.swift */; };
+		CCB2D2DD21AA174D0058CB1A /* PharmacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2D2DC21AA174D0058CB1A /* PharmacyViewController.swift */; };
+		CCD06FBB21AF601B00C948F8 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD06FBA21AF601B00C948F8 /* CallViewController.swift */; };
+		CCD1674C21CD94CA009A273B /* PharmacyMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1674B21CD94CA009A273B /* PharmacyMapController.swift */; };
+		CCD1674E21CE738D009A273B /* PersonneSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1674D21CE738D009A273B /* PersonneSession.swift */; };
+		CCDB1C3221C69E590028495F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1C3121C69E590028495F /* BaseViewController.swift */; };
+		CCDB1C3421C69F050028495F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1C3321C69F050028495F /* MenuViewController.swift */; };
+		CCDB1C3621C6A28C0028495F /* PharmacyInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1C3521C6A28C0028495F /* PharmacyInterfaceViewController.swift */; };
+		CCDB1C3821C6BE7C0028495F /* PharmacyDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1C3721C6BE7C0028495F /* PharmacyDrugViewController.swift */; };
+		CCE36F3021EAF5B400B523DC /* QRCodeshowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE36F2F21EAF5B400B523DC /* QRCodeshowerViewController.swift */; };
+		CCE36F3221EC0DBC00B523DC /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE36F3121EC0DBC00B523DC /* QRCodeReaderViewController.swift */; };
+		CCE36F3421EC222100B523DC /* ShowCommandToPharmacienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE36F3321EC222100B523DC /* ShowCommandToPharmacienViewController.swift */; };
+		CCF88A3621AF4DC00065DDBC /* DetaiDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF88A3521AF4DC00065DDBC /* DetaiDrugViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +78,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F21EB017062951B64AC3E60 /* Pods-Pharma+Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharma+Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pharma+Tests/Pods-Pharma+Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		45E81374D1B44D75F2058D40 /* Pods-Pharma+.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharma+.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pharma+/Pods-Pharma+.release.xcconfig"; sourceTree = "<group>"; };
+		46DEB42A47329449137A9C43 /* Pods_Pharma_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharma_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5BC827DB1E494AF500B7AA /* Pods-Pharma+UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharma+UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pharma+UITests/Pods-Pharma+UITests.release.xcconfig"; sourceTree = "<group>"; };
+		732BB91C3E73A0F14567AC6E /* Pods_Pharma_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharma_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75365F3ABFFA84AAF1159EE7 /* Pods-Pharma+Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharma+Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pharma+Tests/Pods-Pharma+Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7A354A52F95EB873062AC725 /* Pods_Pharma_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharma_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C37A113A4EC4B24D346324D /* Pods-Pharma+.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharma+.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pharma+/Pods-Pharma+.debug.xcconfig"; sourceTree = "<group>"; };
+		CC04AD1821BE635400F01029 /* ListPharmaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPharmaViewController.swift; sourceTree = "<group>"; };
+		CC05CE2E21AB7983009658A2 /* MedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedViewController.swift; sourceTree = "<group>"; };
+		CC05D9E021C9A9D20015AD80 /* PharmacienInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacienInterfaceController.swift; sourceTree = "<group>"; };
+		CC2E5FE221C586E800155DAE /* PharmaSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaSession.swift; sourceTree = "<group>"; };
+		CC39794521F118C700134A69 /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		CC3F02EB21C80F7B00A586AE /* CartControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartControllerTableViewController.swift; sourceTree = "<group>"; };
+		CC3F02EE21C86E8300A586AE /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		CC3F02F021C87A2400A586AE /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		CC5C35B021CEAC0D0044C756 /* ClientOwnInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientOwnInterface.swift; sourceTree = "<group>"; };
+		CC5C35B221CEAC750044C756 /* ClientSlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientSlideMenu.swift; sourceTree = "<group>"; };
+		CC5C35B421CEC4780044C756 /* CommandeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandeViewController.swift; sourceTree = "<group>"; };
+		CC5C35B621CECF160044C756 /* Commande.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commande.swift; sourceTree = "<group>"; };
+		CC635BBC21C9B457001FA969 /* CustomerSlideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSlideController.swift; sourceTree = "<group>"; };
 		CC6CA98F219B897D00D5B53D /* Pharma+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pharma+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6CA992219B897D00D5B53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC6CA994219B897D00D5B53D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +113,34 @@
 		CC6CA9B1219B898000D5B53D /* Pharma+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pharma+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6CA9B5219B898000D5B53D /* Pharma_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharma_UITests.swift; sourceTree = "<group>"; };
 		CC6CA9B7219B898000D5B53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6CA9C3219B900C00D5B53D /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
+		CC6CA9C5219B9CFC00D5B53D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CC6CA9C7219BBE3D00D5B53D /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		CC6FC6B121A64A86000C7CC8 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		CC8D92BE21CAF3170014CBF5 /* AddMedicamentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicamentViewController.swift; sourceTree = "<group>"; };
+		CC8E9BDB21BB319600E6CAF6 /* PanierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanierViewController.swift; sourceTree = "<group>"; };
+		CC95F29C21C45EDD00BE9D8A /* ClientMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMenuController.swift; sourceTree = "<group>"; };
+		CC95F29E21C479AE00BE9D8A /* CustomerMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMapViewController.swift; sourceTree = "<group>"; };
+		CCA3419321B4A95500B9E06F /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		CCA3419721B4D99B00B9E06F /* PharmacienViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacienViewController.swift; sourceTree = "<group>"; };
+		CCA3419921B5309500B9E06F /* AllDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDrugViewController.swift; sourceTree = "<group>"; };
+		CCA3419B21B5353800B9E06F /* NetworkTritement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTritement.swift; sourceTree = "<group>"; };
+		CCA3419D21B53C9C00B9E06F /* MedicamentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicamentObject.swift; sourceTree = "<group>"; };
+		CCA854BE21BD3CB700F5AB55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCB0EB5421AB527100BFC8E0 /* DrugTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugTabController.swift; sourceTree = "<group>"; };
+		CCB2D2DC21AA174D0058CB1A /* PharmacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewController.swift; sourceTree = "<group>"; };
+		CCD06FBA21AF601B00C948F8 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		CCD1674B21CD94CA009A273B /* PharmacyMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyMapController.swift; sourceTree = "<group>"; };
+		CCD1674D21CE738D009A273B /* PersonneSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonneSession.swift; sourceTree = "<group>"; };
+		CCDB1C3121C69E590028495F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CCDB1C3321C69F050028495F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CCDB1C3521C6A28C0028495F /* PharmacyInterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyInterfaceViewController.swift; sourceTree = "<group>"; };
+		CCDB1C3721C6BE7C0028495F /* PharmacyDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDrugViewController.swift; sourceTree = "<group>"; };
+		CCE36F2F21EAF5B400B523DC /* QRCodeshowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeshowerViewController.swift; sourceTree = "<group>"; };
+		CCE36F3121EC0DBC00B523DC /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		CCE36F3321EC222100B523DC /* ShowCommandToPharmacienViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCommandToPharmacienViewController.swift; sourceTree = "<group>"; };
+		CCF88A3521AF4DC00065DDBC /* DetaiDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaiDrugViewController.swift; sourceTree = "<group>"; };
+		DE674D3DB4710F64805E1951 /* Pods-Pharma+UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharma+UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pharma+UITests/Pods-Pharma+UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27980EE37342E3BB1A9769D /* Pods_Pharma_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02EA2C2232CDE8000757A43D /* Pods_Pharma_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +164,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63611F2E25B3B60E72715962 /* Pods_Pharma_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7259175EAECB76E93534C6C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C37A113A4EC4B24D346324D /* Pods-Pharma+.debug.xcconfig */,
+				45E81374D1B44D75F2058D40 /* Pods-Pharma+.release.xcconfig */,
+				1F21EB017062951B64AC3E60 /* Pods-Pharma+Tests.debug.xcconfig */,
+				75365F3ABFFA84AAF1159EE7 /* Pods-Pharma+Tests.release.xcconfig */,
+				DE674D3DB4710F64805E1951 /* Pods-Pharma+UITests.debug.xcconfig */,
+				4C5BC827DB1E494AF500B7AA /* Pods-Pharma+UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CB57CDC200399B00DAD5686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A354A52F95EB873062AC725 /* Pods_Pharma_.framework */,
+				732BB91C3E73A0F14567AC6E /* Pods_Pharma_Tests.framework */,
+				46DEB42A47329449137A9C43 /* Pods_Pharma_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3F02ED21C86DF500A586AE /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				CC3F02EE21C86E8300A586AE /* Section.swift */,
+				CC3F02F021C87A2400A586AE /* ExpandableHeaderView.swift */,
+			);
+			path = ExpandableHeaderView;
+			sourceTree = "<group>";
+		};
 		CC6CA986219B897D00D5B53D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +210,8 @@
 				CC6CA9A9219B898000D5B53D /* Pharma+Tests */,
 				CC6CA9B4219B898000D5B53D /* Pharma+UITests */,
 				CC6CA990219B897D00D5B53D /* Products */,
+				7259175EAECB76E93534C6C5 /* Pods */,
+				9CB57CDC200399B00DAD5686 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +228,53 @@
 		CC6CA991219B897D00D5B53D /* Pharma+ */ = {
 			isa = PBXGroup;
 			children = (
+				CC3F02ED21C86DF500A586AE /* ExpandableHeaderView */,
+				CC9DCAD021AC349D0093130B /* UI */,
+				CCD06FBA21AF601B00C948F8 /* CallViewController.swift */,
+				CCA854BE21BD3CB700F5AB55 /* GoogleService-Info.plist */,
 				CC6CA992219B897D00D5B53D /* AppDelegate.swift */,
 				CC6CA994219B897D00D5B53D /* ViewController.swift */,
 				CC6CA996219B897D00D5B53D /* Main.storyboard */,
+				CCDB1C3121C69E590028495F /* BaseViewController.swift */,
+				CC95F29C21C45EDD00BE9D8A /* ClientMenuController.swift */,
+				CC8D92BE21CAF3170014CBF5 /* AddMedicamentViewController.swift */,
 				CC6CA99C219B897F00D5B53D /* Assets.xcassets */,
 				CC6CA99E219B897F00D5B53D /* LaunchScreen.storyboard */,
 				CC6CA9A1219B897F00D5B53D /* Info.plist */,
+				CC6FC6B121A64A86000C7CC8 /* credentials.plist */,
 				CC6CA999219B897D00D5B53D /* Pharma_.xcdatamodeld */,
+				CC6CA9C3219B900C00D5B53D /* InscriptionViewController.swift */,
+				CC6CA9C5219B9CFC00D5B53D /* MainViewController.swift */,
+				CC6CA9C7219BBE3D00D5B53D /* SideBarView.swift */,
+				CC5C35B021CEAC0D0044C756 /* ClientOwnInterface.swift */,
+				CCB2D2DC21AA174D0058CB1A /* PharmacyViewController.swift */,
+				CCB0EB5421AB527100BFC8E0 /* DrugTabController.swift */,
+				CC05CE2E21AB7983009658A2 /* MedViewController.swift */,
+				CCF88A3521AF4DC00065DDBC /* DetaiDrugViewController.swift */,
+				CCA3419321B4A95500B9E06F /* Pharmacy.swift */,
+				CCA3419721B4D99B00B9E06F /* PharmacienViewController.swift */,
+				CCA3419D21B53C9C00B9E06F /* MedicamentObject.swift */,
+				CCA3419921B5309500B9E06F /* AllDrugViewController.swift */,
+				CCA3419B21B5353800B9E06F /* NetworkTritement.swift */,
+				CC8E9BDB21BB319600E6CAF6 /* PanierViewController.swift */,
+				CC5C35B221CEAC750044C756 /* ClientSlideMenu.swift */,
+				CC04AD1821BE635400F01029 /* ListPharmaViewController.swift */,
+				CC95F29E21C479AE00BE9D8A /* CustomerMapViewController.swift */,
+				CC2E5FE221C586E800155DAE /* PharmaSession.swift */,
+				CCDB1C3321C69F050028495F /* MenuViewController.swift */,
+				CCDB1C3521C6A28C0028495F /* PharmacyInterfaceViewController.swift */,
+				CCDB1C3721C6BE7C0028495F /* PharmacyDrugViewController.swift */,
+				CC3F02EB21C80F7B00A586AE /* CartControllerTableViewController.swift */,
+				CC05D9E021C9A9D20015AD80 /* PharmacienInterfaceController.swift */,
+				CC635BBC21C9B457001FA969 /* CustomerSlideController.swift */,
+				CCD1674B21CD94CA009A273B /* PharmacyMapController.swift */,
+				CCD1674D21CE738D009A273B /* PersonneSession.swift */,
+				CC5C35B421CEC4780044C756 /* CommandeViewController.swift */,
+				CC5C35B621CECF160044C756 /* Commande.swift */,
+				CCE36F2F21EAF5B400B523DC /* QRCodeshowerViewController.swift */,
+				CCE36F3121EC0DBC00B523DC /* QRCodeReaderViewController.swift */,
+				CCE36F3321EC222100B523DC /* ShowCommandToPharmacienViewController.swift */,
+				CC39794521F118C700134A69 /* CheckInternet.swift */,
 			);
 			path = "Pharma+";
 			sourceTree = "<group>";
@@ -128,6 +297,61 @@
 			path = "Pharma+UITests";
 			sourceTree = "<group>";
 		};
+		CC9DCAD021AC349D0093130B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CC9DCAD521AC36B60093130B /* PharmacistMenu */,
+				CC9DCAD321AC367C0093130B /* ClientMenu */,
+				CC9DCAD221AC36300093130B /* SignIn */,
+				CC9DCAD121AC35BF0093130B /* SignUp */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CC9DCAD121AC35BF0093130B /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		CC9DCAD221AC36300093130B /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		CC9DCAD321AC367C0093130B /* ClientMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CC9DCAD621AC37F40093130B /* GenralMenu */,
+				CC9DCAD421AC36950093130B /* PharmacyMenu */,
+			);
+			path = ClientMenu;
+			sourceTree = "<group>";
+		};
+		CC9DCAD421AC36950093130B /* PharmacyMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PharmacyMenu;
+			sourceTree = "<group>";
+		};
+		CC9DCAD521AC36B60093130B /* PharmacistMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PharmacistMenu;
+			sourceTree = "<group>";
+		};
+		CC9DCAD621AC37F40093130B /* GenralMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GenralMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6CA9BA219B898000D5B53D /* Build configuration list for PBXNativeTarget "Pharma+" */;
 			buildPhases = (
+				A4D7EBE331130C7CFBEC2CA9 /* [CP] Check Pods Manifest.lock */,
 				CC6CA98B219B897D00D5B53D /* Sources */,
 				CC6CA98C219B897D00D5B53D /* Frameworks */,
 				CC6CA98D219B897D00D5B53D /* Resources */,
+				1A8BE30492F8BFE6E42B958A /* [CP] Embed Pods Frameworks */,
+				EBDE4422B66A94782D7777A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +379,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6CA9BD219B898000D5B53D /* Build configuration list for PBXNativeTarget "Pharma+Tests" */;
 			buildPhases = (
+				55E8142EDA533F6955375B35 /* [CP] Check Pods Manifest.lock */,
 				CC6CA9A2219B898000D5B53D /* Sources */,
 				CC6CA9A3219B898000D5B53D /* Frameworks */,
 				CC6CA9A4219B898000D5B53D /* Resources */,
@@ -170,6 +398,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6CA9C0219B898000D5B53D /* Build configuration list for PBXNativeTarget "Pharma+UITests" */;
 			buildPhases = (
+				030BC6FA8FEA7E70968E1A2C /* [CP] Check Pods Manifest.lock */,
 				CC6CA9AD219B898000D5B53D /* Sources */,
 				CC6CA9AE219B898000D5B53D /* Frameworks */,
 				CC6CA9AF219B898000D5B53D /* Resources */,
@@ -233,6 +462,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC6CA9A0219B897F00D5B53D /* LaunchScreen.storyboard in Resources */,
+				CC6FC6B221A64A86000C7CC8 /* credentials.plist in Resources */,
+				CCA854BF21BD3CB700F5AB55 /* GoogleService-Info.plist in Resources */,
 				CC6CA99D219B897F00D5B53D /* Assets.xcassets in Resources */,
 				CC6CA998219B897D00D5B53D /* Main.storyboard in Resources */,
 			);
@@ -254,14 +485,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		030BC6FA8FEA7E70968E1A2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pharma+UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A8BE30492F8BFE6E42B958A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pharma+/Pods-Pharma+-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pharma+/Pods-Pharma+-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E8142EDA533F6955375B35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pharma+Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D7EBE331130C7CFBEC2CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pharma+-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBDE4422B66A94782D7777A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pharma+/Pods-Pharma+-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pharma+/Pods-Pharma+-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC6CA98B219B897D00D5B53D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD06FBB21AF601B00C948F8 /* CallViewController.swift in Sources */,
+				CC3F02F121C87A2400A586AE /* ExpandableHeaderView.swift in Sources */,
+				CCE36F3021EAF5B400B523DC /* QRCodeshowerViewController.swift in Sources */,
+				CCE36F3221EC0DBC00B523DC /* QRCodeReaderViewController.swift in Sources */,
+				CCF88A3621AF4DC00065DDBC /* DetaiDrugViewController.swift in Sources */,
+				CC05CE2F21AB7983009658A2 /* MedViewController.swift in Sources */,
 				CC6CA995219B897D00D5B53D /* ViewController.swift in Sources */,
 				CC6CA993219B897D00D5B53D /* AppDelegate.swift in Sources */,
+				CCE36F3421EC222100B523DC /* ShowCommandToPharmacienViewController.swift in Sources */,
+				CCDB1C3621C6A28C0028495F /* PharmacyInterfaceViewController.swift in Sources */,
 				CC6CA99B219B897D00D5B53D /* Pharma_.xcdatamodeld in Sources */,
+				CCA3419421B4A95500B9E06F /* Pharmacy.swift in Sources */,
+				CCA3419821B4D99B00B9E06F /* PharmacienViewController.swift in Sources */,
+				CC3F02EF21C86E8300A586AE /* Section.swift in Sources */,
+				CC95F29D21C45EDD00BE9D8A /* ClientMenuController.swift in Sources */,
+				CC95F29F21C479AE00BE9D8A /* CustomerMapViewController.swift in Sources */,
+				CCD1674C21CD94CA009A273B /* PharmacyMapController.swift in Sources */,
+				CC39794621F118C700134A69 /* CheckInternet.swift in Sources */,
+				CC635BBD21C9B457001FA969 /* CustomerSlideController.swift in Sources */,
+				CC5C35B121CEAC0D0044C756 /* ClientOwnInterface.swift in Sources */,
+				CC6CA9C8219BBE3D00D5B53D /* SideBarView.swift in Sources */,
+				CCB2D2DD21AA174D0058CB1A /* PharmacyViewController.swift in Sources */,
+				CC5C35B521CEC4780044C756 /* CommandeViewController.swift in Sources */,
+				CC3F02EC21C80F7B00A586AE /* CartControllerTableViewController.swift in Sources */,
+				CC6CA9C4219B900C00D5B53D /* InscriptionViewController.swift in Sources */,
+				CCDB1C3221C69E590028495F /* BaseViewController.swift in Sources */,
+				CCD1674E21CE738D009A273B /* PersonneSession.swift in Sources */,
+				CC6CA9C6219B9CFC00D5B53D /* MainViewController.swift in Sources */,
+				CCA3419A21B5309500B9E06F /* AllDrugViewController.swift in Sources */,
+				CC2E5FE321C586E800155DAE /* PharmaSession.swift in Sources */,
+				CCB0EB5521AB527100BFC8E0 /* DrugTabController.swift in Sources */,
+				CC8E9BDC21BB319600E6CAF6 /* PanierViewController.swift in Sources */,
+				CC8D92BF21CAF3170014CBF5 /* AddMedicamentViewController.swift in Sources */,
+				CC5C35B321CEAC750044C756 /* ClientSlideMenu.swift in Sources */,
+				CC04AD1921BE635400F01029 /* ListPharmaViewController.swift in Sources */,
+				CC5C35B721CECF160044C756 /* Commande.swift in Sources */,
+				CCA3419C21B5353800B9E06F /* NetworkTritement.swift in Sources */,
+				CCA3419E21B53C9C00B9E06F /* MedicamentObject.swift in Sources */,
+				CCDB1C3421C69F050028495F /* MenuViewController.swift in Sources */,
+				CCDB1C3821C6BE7C0028495F /* PharmacyDrugViewController.swift in Sources */,
+				CC05D9E121C9A9D20015AD80 /* PharmacienInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,10 +832,13 @@
 		};
 		CC6CA9BB219B898000D5B53D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C37A113A4EC4B24D346324D /* Pods-Pharma+.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNBU824HFW;
 				INFOPLIST_FILE = "Pharma+/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,10 +852,13 @@
 		};
 		CC6CA9BC219B898000D5B53D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E81374D1B44D75F2058D40 /* Pods-Pharma+.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNBU824HFW;
 				INFOPLIST_FILE = "Pharma+/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +872,7 @@
 		};
 		CC6CA9BE219B898000D5B53D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F21EB017062951B64AC3E60 /* Pods-Pharma+Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +893,7 @@
 		};
 		CC6CA9BF219B898000D5B53D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75365F3ABFFA84AAF1159EE7 /* Pods-Pharma+Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +914,7 @@
 		};
 		CC6CA9C1219B898000D5B53D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE674D3DB4710F64805E1951 /* Pods-Pharma+UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +934,7 @@
 		};
 		CC6CA9C2219B898000D5B53D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5BC827DB1E494AF500B7AA /* Pods-Pharma+UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

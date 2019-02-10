@@ -8,6 +8,9 @@
 
 import UIKit
 import CoreData
+import FBSDKCoreKit
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
+    {
         // Override point for customization after application launch.
+        FBSDKApplicationDelegate.sharedInstance().application(application,
+            didFinishLaunchingWithOptions:launchOptions);
         return true
     }
 
@@ -43,7 +49,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
-
+    
+    
+    func applications(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any])->Bool
+    {
+        let handled = FBSDKApplicationDelegate.sharedInstance().application(application, open: url, options: options)
+        return handled
+    }
+    
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
@@ -89,5 +102,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+    
+    
 }
 
